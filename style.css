@@ -1,0 +1,117 @@
+*{
+    margin-top: 0;
+    margin-left:0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 2vh;
+    background-color:#3B4664;
+    font-family: Inter;
+    font-weight: 800;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heading{
+    color: #ffffff;
+}
+input::placeholder {
+    color: white;
+}
+
+.calculator #inputbox{
+color: #FFFFFF;
+width: 536px;
+height: 142.73px;
+top: 194px;
+left: 466px;
+gap: 0px;
+border-radius: 12px;
+opacity: 0px;
+background-color: #181F32;
+box-shadow: 0px 4px 4px 0px #00000040;
+font-family: Segoe UI;
+font-size: 55px;
+font-weight: 900;
+line-height: 74.28px;
+justify-content: center;
+text-align: right;
+padding: 75px;
+}
+
+.gridcontainer{
+    
+    background: #252D44;
+    width: 536px;
+    height: 487px;
+    gap: 15px;
+    border-radius: 12px;
+    opacity: 0px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.op,.op1{
+    background: #EAE3DB;
+    width: 100px;
+    height: 60px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    color: #3B4664;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36.31px;
+    text-align: center;
+
+
+}
+.del{
+    color: #ffffff;
+    width: 100px;
+    height: 60px;
+    left: 366px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #647299;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29.05px;
+    text-align: center;
+
+}
+.res1{
+    color: #ffffff;
+    width: 222.44px;
+    height: 60px;
+    gap: 0px;
+    border-radius: 11.52px;
+    opacity: 0px;
+    background: #647299;
+    font-family: Inter;
+    font-size: 23.05px;
+    font-weight: 800;
+    line-height: 27.89px;
+    text-align: center;
+
+}
+.asn{
+    color: #ffffff;
+    background: #D13F30;
+    width: 222.44px;
+    height: 60px;
+    left: 243.56px;
+    gap: 0px;
+    border-radius: 11.52px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 23.05px;
+    font-weight: 800;
+    line-height: 27.89px;
+    text-align: center;
+}
